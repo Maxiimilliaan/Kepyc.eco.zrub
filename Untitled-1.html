@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kepych.eco.zrub</title>
+
+  <!-- Стилі Lightbox -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: #333;
+      padding: 15px 20px;
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #444;
+    }
+
+    nav a {
+      padding: 12px 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background: #666;
+    }
+
+    .section {
+      padding: 40px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Kepych.eco.zrub</h1>
+</header>
+
+<nav>
+  <a href="#home">Головна</a>
+  <a href="#gallery">Галерея</a>
+  <a href="#about">Про нас</a>
+  <a href="#contact">Контакти</a>
+</nav>
+
+<div class="section" id="gallery">
+  <h2>Галерея</h2>
+  <div class="gallery">
+    <a href="images/б1.jpg" data-lightbox="gallery" data-title="Альтанка 1">
+      <img src="images/б1.jpg" alt="Альтанка 1" />
+    </a>
+    <a href="images/б2.jpg" data-lightbox="gallery" data-title="Альтанка 2">
+      <img src="images/б2.jpg" alt="Альтанка 2" />
+    </a>
+    <a href="images/б3.jpg" data-lightbox="gallery" data-title="Альтанка 3">
+      <img src="images/б3.jpg" alt="Альтанка 3" />
+    </a>
+    <a href="images/б4.jpg" data-lightbox="gallery" data-title="Альтанка 4">
+      <img src="images/б4.jpg" alt="Альтанка 4" />
+    </a>
+    <a href="images/б7.jpg" data-lightbox="gallery" data-title="Альтанка 5">
+      <img src="images/б7.jpg" alt="Альтанка 5" />
+    </a>
+    <a href="images/б8.jpg" data-lightbox="gallery" data-title="Альтанка 6">
+      <img src="images/б8.jpg" alt="Альтанка 6" />
+    </a>
+    <a href="images/б9.jpg" data-lightbox="gallery" data-title="Альтанка 7">
+      <img src="images/б9.jpg" alt="Альтанка 7" />
+    </a>
+    <a href="images/к5.jpg" data-lightbox="gallery" data-title="Качеля 1">
+      <img src="images/к5.jpg" alt="Качеля 1" />
+    </a>
+    <a href="images/к6.jpg" data-lightbox="gallery" data-title="Качеля 2">
+      <img src="images/к6.jpg" alt="Качеля 2" />
+    </a>
+    <a href="images/к22.JPG" data-lightbox="gallery" data-title="Качеля 3">
+      <img src="images/к22.JPG" alt="Качеля 3" />
+    </a>
+    <a href="images/к9.jpg" data-lightbox="gallery" data-title="Качеля 4">
+      <img src="images/к9.jpg" alt="Качеля 4" />
+    </a>
+    <a href="images/к10.jpg" data-lightbox="gallery" data-title="Качеля 5">
+      <img src="images/к10.jpg" alt="Качеля 5" />
+    </a>
+    <a href="images/к3.jpg" data-lightbox="gallery" data-title="Качеля 6">
+      <img src="images/к3.jpg" alt="Качеля 6" />
+    </a>
+    <a href="images/к4.jpg" data-lightbox="gallery" data-title="Качеля 7">
+      <img src="images/к4.jpg" alt="Качеля 7" />
+    </a>
+    <a href="images/б10.jpg" data-lightbox="gallery" data-title="Качеля 8">
+      <img src="images/б10.jpg" alt="Качеля 8" />
+    </a>
+    <a href="images/б11.jpg" data-lightbox="gallery" data-title="Качеля 9">
+      <img src="images/б11.jpg" alt="Качеля 9" />
+    </a>
+  </div>
+</div>
+
+<div class="section" id="about">
+  <h2>Про нас</h2>
+  <p style="max-width: 800px; margin: auto; text-align: center;">
+    Ми займаємося виробництвом якісних дерев'яних конструкцій: альтанок, ліжок та багато іншого.
+  </p>
+</div>
+
+<div class="section" id="contact">
+  <h2>Контакти</h2>
+  <p style="text-align: center;">
+    Телефон: +380 97 400 44 63<br />
+    Email: makskepyh@.com
+  </p>
+</div>
+
+<footer>
+  &copy; Kepych.eco.zrub. Всі права захищено.
+</footer>
+
+<!-- Lightbox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+</body>
+</html>
